@@ -1,0 +1,78 @@
+.main {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  justify-content: space-around;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexStart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.image {
+  width: 200px;
+  height: 250px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.des {
+  width: 40vw;
+}
+
+.token {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.about {
+}
+
+.tag {
+  font-size: 11px;
+  width: min-content;
+  border: 1px solid gray;
+  border-radius: 2px;
+  padding: 1px 2px 1px 2px;
+  margin-right: 5px;
+}
+
+.ethIcon {
+}
+
+.price {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.btn {
+  width: max-content;
+  color: white;
+  padding: 5px 40px 5px 40px;
+  background-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 720px) {
+  .main {
+    flex-direction: column;
+  }
+
+  .des {
+    width: 80vw;
+    margin-top: 20px;
+  }
+}

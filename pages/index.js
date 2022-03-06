@@ -2,7 +2,6 @@ import styles from '../styles/Home.module.css';
 import axios from 'axios';
 
 import { uploadImage } from '../lib/services/uploadImage';
-
 import { useState } from 'react';
 
 export default function Home() {
