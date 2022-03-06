@@ -1,0 +1,20 @@
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 20px 0px 20px;
+  flex-direction: column;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text {
+  font-size: 18px;
+}
+.title {
+  font-size: 36px;
+  font-weight: 600;
+}
