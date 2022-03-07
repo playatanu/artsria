@@ -29,7 +29,9 @@ export default function Hero() {
       />
       <div className={styles.route}>Explore</div>
       <div className={styles.route}>Artist</div>
-      <div className={styles.uploadBox}>Upload Asset</div>
+      <div className={styles.uploadBox} onClick={() => router.push('/create')}>
+        Upload Asset
+      </div>
 
       <img
         className={styles.profilePhoto}

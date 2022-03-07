@@ -9,12 +9,13 @@
 }
 
 .image {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 200px;
   object-fit: cover;
-  border-radius: 50px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  cursor: pointer;
 }
-
 .flex {
   display: flex;
 }
@@ -40,6 +41,7 @@
   width: 100%;
   border-radius: 5px;
   padding: 8px;
+  margin: 10px 0px 0px 0px;
 }
 
 @media (max-width: 720px) {
